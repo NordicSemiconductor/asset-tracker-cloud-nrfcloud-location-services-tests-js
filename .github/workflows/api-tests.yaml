@@ -18,7 +18,7 @@ jobs:
     name: A-GNSS Service API verification tests
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
+      - uses: actions/checkout@44c2b7a8a4ea60a981eaca3cf939b5f4305c123b # v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20.x"
@@ -29,7 +29,7 @@ jobs:
     name: P-GPS Service API verification tests
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
+      - uses: actions/checkout@44c2b7a8a4ea60a981eaca3cf939b5f4305c123b # v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20.x"
@@ -40,7 +40,7 @@ jobs:
     name: Ground Fix Services API verification tests
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
+      - uses: actions/checkout@44c2b7a8a4ea60a981eaca3cf939b5f4305c123b # v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20.x"
@@ -51,7 +51,7 @@ jobs:
     name: Evaluation Token Authentication verification tests
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
+      - uses: actions/checkout@44c2b7a8a4ea60a981eaca3cf939b5f4305c123b # v4
         if: env.EVALUATION_TOKEN != ''
       - uses: actions/setup-node@v4
         with:
@@ -68,7 +68,7 @@ jobs:
     name: Device Token Authentication verification tests
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
+      - uses: actions/checkout@44c2b7a8a4ea60a981eaca3cf939b5f4305c123b # v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20.x"
