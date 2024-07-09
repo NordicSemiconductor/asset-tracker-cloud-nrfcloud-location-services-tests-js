@@ -1,3 +1,7 @@
+> [!NOTE]  
+>
+> This repository has been archived, because [it is considered feature-complete](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/discussions/1068). ✔️ 
+
 # nRF Cloud Location Services tests [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/nrfcloud-location-services-tests.svg)](https://www.npmjs.com/package/@nordicsemiconductor/nrfcloud-location-services-tests)
 
 [![GitHub Actions](https://github.com/NordicSemiconductor/nrfcloud-location-services-tests-js/workflows/Test%20and%20Release/badge.svg)](https://github.com/NordicSemiconductor/nrfcloud-location-services-tests-js/actions)
